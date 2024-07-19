@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  text-shadow: 2px 2px 2px black;
+}
+
+body {
+  background-image: linear-gradient(to right, #2f3d40, #455559);
+  background-size: 700px;
+  
+}
+
+.setaParaBaixo{
+  margin-top: 10px;
+  margin-left: 685px;
+  cursor: pointer;
+}
+
+nav {
+  text-align: right;
+  margin-right: 170px;
+  margin-top: 70px;
+}
+
+span {
+  margin-inline: 10px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+span:hover {
+  text-decoration: underline;
+}
+
+.cabecalho {
+  padding: 0px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+
+  text-align: center;
+  margin-top:50px;
+  margin-left: -30px;
+}
+
+h2 {
+  margin-top: -25px;
+  margin-left: 680px;
+  position: absolute;
+  text-align: center;
+  
+  
+}
+
+#elemento{
+  display: block;
+}
+section{
+  text-align: center;
+  margin-top: 150px;
+}
+
+
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  width: 5%;
+  margin: 10px;
+}
+
+.segundaImg {
+  margin-left: 1200px;
+}
+
+.imgProgramador {
+  width: 5%;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.dia {
+  width: 40px;
+  height: 40px;
+
+  float: right;
+  margin-right: 150px;
+  margin-top: -300px;
+}
+
+
+
+
+
+
+p {
+  margin-top: -22px;
+  margin-left: 350px;
+  transition: 1s;
+}
+
+#primeiroStrong {
+  opacity: 0%;
+  transition: 1s;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#segundoStrong {
+  opacity: 0%;
+  transition: 1s;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#terceiroStrong {
+  opacity: 0%;
+  transition: 1s;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#quartoStrong {
+  opacity: 0%;
+  transition: 1s;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.logo{
+  width: 30%;
+  margin-top: -20px;
+  margin-right: 450px;
+  opacity: 100%;
+  box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.478);
+}
+
+.videoSweet{
+  margin-top: 10px;
+  width: 30%;
+  margin-left: 700px;
+  box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.614);
+  cursor: pointer;
+}
+
+.videoCronometro{
+  margin-top: 200px;
+  width: 30%;
+  margin-left: 297px;
+  box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.614);
+  cursor: pointer;
+}
+
+.videoLista{
+  width: 30%;
+  margin-top: 500px;
+  position: absolute;
+  box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.614);
+  cursor: pointer;
+}
+
+.StudioNome{
+  font-size: 30px;
+  margin-top: -170px;
+  margin-left: 500px;
+}
+
+.cronometroNome{
+  font-size: 30px;
+  margin-left: 750px;
+  margin-top: -150px;
+  position: absolute;
+}
+
+
+
+.TextoProjetos{
+  margin-top: -200px;
+  position: absolute;
+  margin-left: 800px;
+  font-size: 30px;
+}
+
+svg{
+  width: 30px;
+  height: 30px;
+  margin-left: 740px;
+  margin-top: 300px;
+}
+
+.redirecionarStudio{
+  margin-top: -200px;
+  margin-left: 1100px;
+  cursor: pointer;
+}
+
+.redirecionarCronometro{
+  margin-top: 160px;
+  position: absolute;
+  margin-left: 270px;
+}
+
+
+.txtTec{
+  margin-top: 350px;
+}
+
+.node{
+  position: absolute;
+  margin-left: 350px;
+}
+
+
+.html5{
+  position: absolute;
+  margin-left: 500px;
+}
+
+.jsImg{
+  position: absolute;
+  margin-left: 650px;
+}
+
+.css3{
+  position: absolute;
+  margin-left: 800px;
+}
+
+.git{
+  position: absolute;
+  margin-left: 950px;
+}
+
+.txtContato{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+.github{
+  margin-top: 150px;
+  position: absolute;
+  margin-left: -200px;
+  width: 70px;
+  height: 70px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.639);
+  border-radius: 10px;
+
+}
+.txtLinkedin{
+  text-decoration: none;
+  
+}
+
+.linkedin{
+  background-color: rgb(0, 153, 255);
+  margin-left: 250px;
+  width: 70px;
+  height: 70px;
+  margin-top: 150px;
+  position: absolute;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.639);
+  border-radius: 10px;
+
+}
+
+
+h4{
+  margin-top: 150px;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+#parteBaixo{
+  margin-left: 685px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 450px;
+}
+
+.footerTxt{
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  animation: animar 2.5s infinite forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+footer{
+  text-align: center;
+  margin-top: 320px;
+  border-top: 1px solid black;
+  background-color: black;
+  padding: 1px;
+  
+}
+
+@media (max-width:600px){
+  body{
+    background-size: 50%;
+  }
+  nav{
+    margin-top: -150px;
+    position: absolute;
+  }
+  span{
+    font-size: 15px;
+    margin-left: 200px;
+    border-bottom: 2px solid ;
+    
+    
+    
+  }
+  span:hover{
+    text-decoration: none;
+    font-weight: bold;
+    
+
+  }
+  h1{
+    font-size: 20px;
+    margin-left: auto;
+    position: absolute;
+    margin-top: 200px;
+    
+
+  }
+  .imgProgramador{
+    width: 20%;
+    margin-top: -160px;
+    position: absolute;
+  }
+
+  .primeiraImg{
+    width: 20%;
+    margin:auto;
+    position: absolute;
+    margin-top: -60px;
+  }
+  .segundaImg{
+    margin-top: 1000px;
+    position: absolute;
+  }
+
+  
+  .setaParaBaixo{
+    margin: 0;
+    margin-left: 125px;
+    margin-top:  -250px;
+    position: absolute;
+  }
+  article > p{
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 320px;
+    font-size: 15px;
+  }
+  
+
+  #primeiroStrong{
+    font-size: 15px;
+  }
+  #segundoStrong{
+    font-size: 15px;
+  }
+  #terceiroStrong{
+    font-size: 15px;
+  }
+  #quartoStrong{
+    font-size: 15px;
+  }
+  .logo{
+    width: 50%;
+    position: absolute;
+    margin-left: -135px;
+    margin-top: 10px;
+  }
+  .TextoProjetos{
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 80px;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .redirecionarStudio{
+    margin: auto;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 240px;
+    width: 8%;
+  }
+  .videoSweet{
+    margin: auto;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 10px;
+    width: 90%;
+  }
+  .StudioNome{
+    margin: auto;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  .redirecionarCronometro{
+    margin: auto;
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 10px;
+    width: 8%;
+  }
+
+  .videoCronometro{
+    margin: auto;
+    position: absolute;
+    margin-top: 450px;
+    
+    margin-left: 10px;
+    width: 90%;
+  }
+  .cronometroNome{
+    margin: auto;
+    position: absolute;
+    margin-top: 390px;
+    font-size: 20px;
+    margin-left: 140px;
+  }
+
+
+  h4{
+    margin-top: 800px;
+  }
+  .tecnologias1{
+    margin: auto;
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 30px;
+  }
+  .tecnologias2{
+    margin: auto;
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 180px;
+  }
+  .tecnologias3{
+    margin: auto;
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 280px;
+  }
+
+
+
+}
+

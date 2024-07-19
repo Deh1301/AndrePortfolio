@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #232625;
+    
+
+}
+
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Metrophobic", sans-serif;
+    font-size: 35px;
+    text-decoration: underline;
+    color: aliceblue;
+    
+  }

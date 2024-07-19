@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loading</title>
+  </head>
+  <link rel="stylesheet" href="estilo/estilo.css" />
+  <link rel="shortcut icon" href="imagens/faviss/favicon-32x32.png" type="image/x-icon">
+
+  <body>
+    <h2></h2>
+    <script>
+      const carregar = 5000;
+
+      function redirecionar() {
+        window.location.href = "indexs2.html";
+        
+      }
+      setTimeout(redirecionar, carregar);
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const texto = new Typed("h2", {
+          strings: ["André", "Calixto"],
+          typedSpeed: 40,
+          backSpeed: 35,
+          delay: 500,
+          loop: true,
+
+          
+
+          
+        });
+
+        
+
+      });
+      texto = document.querySelector('h2')
+
+      const corpo = document.querySelector('body')
+
+      const estiloCorpo = ()=>{
+        corpo.style.backgroundColor = 'white'
+        texto.style.color = 'black'
+        
+      }
+
+      const estiloCorpoAlterado = ()=>{
+        corpo.style.backgroundColor = '#232625'
+        texto.style.color = 'white'
+        
+      }
+
+      const verificarPrimeiroTexto = ()=>{
+        if(texto.textContent.includes("André")){
+          estiloCorpo()
+        } else{
+          estiloCorpoAlterado()
+        }
+      }
+
+      const verificarTexto = () => {
+        if (texto.textContent.includes("Calixto")) {
+          estiloCorpoAlterado();
+        } else {
+          estiloCorpo();
+        }
+      }
+
+      const primeiroTempo = 100
+      const segundoTempo = 100
+
+      setInterval(verificarPrimeiroTexto, primeiroTempo)
+      setInterval(verificarTexto, segundoTempo)
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </body>
+</html>

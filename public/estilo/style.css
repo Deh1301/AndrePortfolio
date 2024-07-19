@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Grape+Nuts&family=Sevillana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Grape+Nuts&family=Meie+Script&family=Sevillana&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Dosis:wght@200..800&family=Grape+Nuts&family=Meie+Script&family=Schoolbell&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: #262626;
+}
+
+
+section {
+  margin-left: 450px;
+}
+
+article {
+  float: left;
+  background-color: #0d0d0dc8;
+  height: 5vh;
+  border-right: 5px solid rgb(0, 0, 0);
+
+  padding-inline: 15px;
+  padding: 32px;
+  margin-left: 150px;
+}
+
+h1 {
+  margin-top: -15px;
+  font-family: "Dosis", sans-serif;
+}
+
+h2 {
+  font-family: "Gluten", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  font-size: 15px;
+  color: rgb(253, 253, 253);
+  opacity: 0%;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 300px;
+  font-size: 70px;
+  font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #959191f8;
+}
+
+button {
+  padding: 5px;
+  width: 15%;
+  border-radius: 30px;
+  background: transparent;
+  border: 4px solid #595959;
+  margin-top: 50px;
+  margin-left: 750px;
+  opacity: 0%;
+ 
+}
+
+
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+svg{
+    width: 30px;
+    height: 30px;
+    transition: .5s;
+}
+
+svg:hover{
+  width: 35px;
+  height: 35px;
+}
+
+.A{
+  opacity: 0%;
+  font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.N{
+  opacity: 0%;
+  font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.D{
+  opacity: 0%;
+  font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.R{
+  opacity: 0%;
+  font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.E{
+  opacity: 0%;
+  font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sobrenome{
+  opacity: 0%;
+  font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width:750px){
+  
+  h3{
+    margin: auto;
+    position: absolute;
+    margin-left: -450px;
+    font-size: 48px;
+    margin-top: 150px;
+    
+
+  }
+  article{
+    margin: auto;
+    position: absolute;
+    margin-top: 400px;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  button{
+    margin: auto;
+    margin-top: 300px;
+    position: absolute;
+    margin-left: -340px;
+    width: 90px;
+  }
+  footer{
+    margin-top: 500px;
+    position: absolute;
+    margin-left: 40px;
+  }
+}
