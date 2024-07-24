@@ -3,11 +3,13 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+const rotaProjeto = require("./Router/rotas")
 
 app.use(express.static(path.join(__dirname,"public")))
 const base = path.join(__dirname,"public")
 
-
+app.use("/projeto", rotaProjeto)
+// https://studio-sweet.vercel.app/
 
 app.get("/",(req,res)=>{
   res.sendFile(`${base}/index.html`)
