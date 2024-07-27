@@ -11,11 +11,8 @@ router.get("/:name",(req,res)=>{
     const linkProjeto = linkProjetos[nomeProjeto]
     if(linkProjeto){
         res.redirect(linkProjeto)
-    } else{
-        res.writeHead(404,{"Content-Type":"text/html"})
-        res.write("<h1>Erro de Busca")
-        res.end()
     }
 })
+
 
 module.exports = router

@@ -19,6 +19,10 @@ app.get("/Inicio",(req,res)=>{
   res.sendFile(`${base}/indexs2.html`)
 })
 
+app.use((req,res,next)=>{
+  res.status(404).sendFile(`${base}/404.html`)
+})
+
 
 app.listen(PORT,()=>{
   console.log("Run")
