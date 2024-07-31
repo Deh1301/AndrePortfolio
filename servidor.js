@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname,"public")))
 const base = path.join(__dirname,"public")
 
 app.use("/projeto", rotaProjeto)
-// https://studio-sweet.vercel.app/
+
 
 app.get("/",(req,res)=>{
   res.sendFile(`${base}/index.html`)

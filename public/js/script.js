@@ -70,35 +70,38 @@ document.addEventListener("DOMContentLoaded", () => {
 
     setInterval(textoTituloBold, tempoBold);
 
-    const primeiroTexto = () => {
-      strongP.style.opacity = "100%";
-    };
-
-    const tempoP = 1200;
-    setTimeout(primeiroTexto, tempoP);
-
-    const segundoTexto = () => {
-      strongS.style.opacity = "100%";
-    };
-
-    const tempoS = 2000;
-    setTimeout(segundoTexto, tempoS);
-
-    const terceiroTexto = () => {
-      strongT.style.opacity = "100%";
-    };
-
-    const tempoT = 3000;
-
-    setTimeout(terceiroTexto, tempoT);
-
-    const quartoTexto = () => {
-      strongQ.style.opacity = "100%";
-    };
-
-    const tempoQ = 4000;
-
-    setTimeout(quartoTexto, tempoQ);
+    const eventoTexto = ()=>{
+      const primeiroTexto = () => {
+        strongP.style.opacity = "100%";
+      };
+  
+      const tempoP = 1200;
+      setTimeout(primeiroTexto, tempoP);
+  
+      const segundoTexto = () => {
+        strongS.style.opacity = "100%";
+      };
+  
+      const tempoS = 2000;
+      setTimeout(segundoTexto, tempoS);
+  
+      const terceiroTexto = () => {
+        strongT.style.opacity = "100%";
+      };
+  
+      const tempoT = 3000;
+  
+      setTimeout(terceiroTexto, tempoT);
+  
+      const quartoTexto = () => {
+        strongQ.style.opacity = "100%";
+      };
+  
+      const tempoQ = 4000;
+  
+      setTimeout(quartoTexto, tempoQ);
+    }
+    eventoTexto()
   };
 
   PrimeiraParte();
