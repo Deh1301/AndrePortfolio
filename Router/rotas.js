@@ -2,7 +2,7 @@ const express= require("express")
 const router = express.Router()
 
 const linkProjetos = {
-    "studio-sweet":"https://studio-sweet.vercel.app/",
+    "studiosweet":"https://studio-sweet.vercel.app/",
     "cronometro" : "https://cronometro-projeto-rust.vercel.app/"
 }
 

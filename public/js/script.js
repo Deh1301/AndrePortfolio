@@ -107,8 +107,15 @@ document.addEventListener("DOMContentLoaded", () => {
   PrimeiraParte();
 
   const Footer = ()=>{
-
+    
+    email = new Typed("#email",{
+      strings:["Email:calixtoandre77@gmail.com </br>Contato:(12)98817-1097"],
+      typeSpeed: 80,
+      backSpeed: 150,
+      loop:true
+  })
   }
+  Footer()
 
   AOS.init();
 });
