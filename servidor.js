@@ -8,7 +8,7 @@ const rotaProjeto = require("./Router/rotas")
 app.use(express.static(path.join(__dirname,"public")))
 const base = path.join(__dirname,"public")
 
-app.use("/projeto", rotaProjeto)
+app.use("/Inicio", rotaProjeto)
 
 
 app.get("/",(req,res)=>{
